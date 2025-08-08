@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+
+    "module": "CommonJS",
+  
+    //  "module": "es2020",        
+    // "target": "es2020", 
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "target": "ESNext",
+    "allowJs": true,
+    "strict": true,
+    "outDir": "dist",
+    "baseUrl": ".",
+       
+
+  },
+
+  "exclude": [ 
+    "node_modules",
+    "Suryacon",
+    "Suryacon/*",
+    "RootModels",
+    "Middlewares",
+    "Util",
+    "Validation"
+  ],
+  "noImplicitAny": true,
+  "include": ["**/*.ts", "**/*.tsx", "compiledist.js","**/*.js"]
+}

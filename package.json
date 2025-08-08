@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/PSQUARE-COMPANY-OFFICIAL/ABHIRACHNA-BACKEND-MAIN#readme",
   "description": "",
+  "type": "module",
   "dependencies": {
     "@aws-sdk/s3-request-presigner": "^3.837.0",
     "@types/axios": "^0.9.36",
